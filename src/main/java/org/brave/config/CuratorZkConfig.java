@@ -21,7 +21,7 @@ public class CuratorZkConfig {
 
     @Bean
     CuratorFramework curatorFramework(){
-        RetryPolicy retryPolicy = new ExponentialBackoffRetry(1000, 3);
+        RetryPolicy retryPolicy = new ExponentialBackoffRetry(4000, 3);
         CuratorFramework client = CuratorFrameworkFactory.newClient(connect, retryPolicy);
         client.start();
         return client;

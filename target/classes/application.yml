@@ -7,4 +7,4 @@ spring:
 server:
   port: 9001
 zk:
-  connect: localhost:2888
+  connect: localhost:2181

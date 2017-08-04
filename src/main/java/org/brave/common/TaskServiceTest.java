@@ -25,9 +25,9 @@ public class TaskServiceTest {
 
     public static ExecutorService executorService = Executors.newFixedThreadPool(1);
 
-    TaskServiceTest(){
-        System.out.println(connect);
-    }
+//    TaskServiceTest(){
+//        System.out.println(connect);
+//    }
 
     @PostConstruct
     void run(){

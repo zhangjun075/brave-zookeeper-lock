@@ -54,9 +54,15 @@
     </dependency>
 
     <dependency>
+      <groupId>org.apache.curator</groupId>
+      <artifactId>curator-recipes</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+
+    <dependency>
       <groupId>org.apache.zookeeper</groupId>
       <artifactId>zookeeper</artifactId>
-      <version>RELEASE</version>
+      <version>3.4.9</version>
     </dependency>
 
 
