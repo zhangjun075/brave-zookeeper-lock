@@ -1,0 +1,6 @@
+org/brave/common/LockException.class
+org/brave/config/CuratorZkConfig.class
+META-INF/spring-configuration-metadata.json
+org/brave/Bootstrap.class
+org/brave/common/TaskServiceTest.class
+org/brave/common/DistributedLock.class

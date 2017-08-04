@@ -1,0 +1,9 @@
+{
+  "groups": [{
+    "name": "zk",
+    "type": "org.brave.Bootstrap",
+    "sourceType": "org.brave.Bootstrap"
+  }],
+  "properties": [],
+  "hints": []
+}
