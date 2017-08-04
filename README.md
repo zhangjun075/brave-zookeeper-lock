@@ -31,7 +31,7 @@
 
 # curator实现
 
-## 采用的组件有framework和recipes。
+## 采用的组件有[framework和recipes](http://curator.apache.org/curator-recipes/index.html)。
   
  * 这里要注意framework和Zookeeper版本兼容性问题，要采用RELEASE版本，否则会出现curator创建节点报错的情况。
  * 整体的思想和zookeeper类似。悲观锁的方式。
